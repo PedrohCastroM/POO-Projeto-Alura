@@ -44,3 +44,4 @@ def get_restaurantes(restaurante: str | None = Query(default=None)):
         )
 
     return {"Restaurante": restaurante, "Cardapio": dados_restaurante}
+# Meu projeto da Alura
